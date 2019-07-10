@@ -1,5 +1,7 @@
 package ing_sw_2019;
 
+// Librería para la toma de datos
+import java.util.Scanner;
 
 public class Main {
 
