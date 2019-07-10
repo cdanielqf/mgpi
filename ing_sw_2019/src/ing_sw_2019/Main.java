@@ -1,6 +1,5 @@
 package ing_sw_2019;
 
-import java.util.Scanner;
 
 public class Main {
 
