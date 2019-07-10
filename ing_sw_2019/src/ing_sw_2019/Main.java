@@ -21,8 +21,18 @@ public class Main {
                     System.out.println("El número es racional");
                     break;
             }
+            System.out.println("La suma de todos los numeros hasta " + num + " es");
+            System.out.println(suma(num));
         } catch (NumberFormatException e) {
             System.out.println("ngrese un número");
+        }
+    }
+
+    static int suma(int n) {
+        if (n <= 0) {
+            return 0;
+        } else {
+            return n + suma(n - 1);
         }
     }
 
