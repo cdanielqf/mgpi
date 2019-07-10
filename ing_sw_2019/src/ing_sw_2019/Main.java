@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un número: ");
+        System.out.println.x("Revisión Mauricio Rojas C.");
         String n = scanner.nextLine();
         try {
             int num = Integer.parseInt(n);
