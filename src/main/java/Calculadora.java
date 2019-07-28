@@ -1,4 +1,4 @@
-package componentes;
+package main.java;
 
 public class Calculadora {
 	
@@ -19,7 +19,7 @@ public class Calculadora {
 
 	public long dividir(long a, long b) throws Exception{
 		if (b==0) throw new Exception("Division por 0");
-		return 0;
+		return (long) a/b;
 	}
 	
 	public long potencia(long a, long b) throws Exception {
@@ -33,5 +33,9 @@ public class Calculadora {
 		if (a <= 1) return 1;
 		return a * factorial(a-1);
 	}
+	/*
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}*/
 
 }
