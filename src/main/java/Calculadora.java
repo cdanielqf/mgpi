@@ -6,11 +6,11 @@ public class Calculadora {
 	}
 
 	public long suma(long a, long b) {
-		return a - b;
+		return a + b;
 	}
 
 	public long resta(long a, long b) {
-		return a + b;
+		return a - b;
 	}
 
 	public long multiplicar(long a, long b) {
